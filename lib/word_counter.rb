@@ -4,8 +4,9 @@ class String
     counter = 0
     
     words.each() do |word|
-      word_to_count.==(word)
+      if word_to_count.==(word)
       counter = counter.+(1)
+      end
     end
     counter
   end
