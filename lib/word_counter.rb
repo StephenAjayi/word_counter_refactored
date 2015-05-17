@@ -14,7 +14,6 @@ class String
       if alphabet.include?(letter)
         only_letters_and_spaces.push(letter)
       elsif letter.==(space)
-binding.pry
       only_letters_and_spaces.push(letter)
       end
     end
