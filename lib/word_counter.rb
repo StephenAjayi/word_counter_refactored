@@ -1,5 +1,3 @@
-
-
 class String
   define_method(:word_counter) do |word_to_count|
     letters = split("")
